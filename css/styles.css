@@ -76,7 +76,8 @@ body{
     background-color: #069169;
     align-items: center;
     padding: 20px;
-    width: 200px;
+    width: 250px;
+    border-bottom: 1px solid gray;
     
 }
 
@@ -85,6 +86,11 @@ body{
     width: 30px;
     height: auto;
 
+}
+
+.portcard a{
+    width: 250px;     /* 👈 Ajusta el ancho */
+    line-height: 1.5;
 }
 
 a{
