@@ -1,5 +1,12 @@
 body{
-    background-color: white;
+    background-color: #F8F8F8;
+    font-family: WorkSans, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
 }
 
 .he-header{
@@ -11,6 +18,7 @@ body{
     flex-wrap: wrap;
     margin-right: 15px;
     margin-left: 15px;
+    
 }
 
 .helogo{
@@ -35,4 +43,57 @@ body{
     background-color: #069169;
 }
 
+
+.cardrenta{
+    background-color: white;
+}
+
+.portales {
+    width: 25%;
+
+}
+
+.pt-2{
+
+    padding-top: .5rem !important;
+
+}
+
+.pb-2{
+    padding-bottom: .5rem !important;
+}
+
+.containerbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.portcard{
+
+    background-color: #069169;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    
+}
+
+.portcard img{
+
+    width: 30px;
+    height: auto;
+
+}
+
+a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
 
