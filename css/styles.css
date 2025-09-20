@@ -1,3 +1,14 @@
 body{
     background-color: #F8F8F8;
 }
+
+.he-header{
+    background-color: #3366cc;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
