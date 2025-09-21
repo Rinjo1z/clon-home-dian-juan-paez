@@ -89,7 +89,7 @@ body{
 }
 
 .portcard a{
-    width: 250px;     /* 👈 Ajusta el ancho */
+    width: 250px;
     line-height: 1.5;
 }
 
@@ -101,5 +101,12 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+.sercard {
+    background-color: white;
+    align-items: center;
+    padding: 20px;
+    width: 250px;
 }
 
