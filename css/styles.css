@@ -111,14 +111,16 @@ a:hover{
 }
 
 .sercard {
+    box-sizing: border-box;
     background-color: white;
-    align-items: center;
-    padding: 10px;
-    width: 250px;
+    align-items: start;
+    padding: 2px;
+    width: 400px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    justify-content: space-between;
+    gap: 2px;
+    justify-content: top;
     
 }
 
@@ -139,9 +141,21 @@ a:hover{
 }
 
 .sercardcont {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+   place-items: start;
+}
+
+.sercardel{
+    align-items: center;
+    padding: 20px;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2px;
 }
 
 .sercard a{
