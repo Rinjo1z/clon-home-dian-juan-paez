@@ -7,11 +7,14 @@ body{
     line-height: 1.5;
     color: #212529;
     text-align: left;
+    
 }
 
 .he-header{
     background-color: #3366cc;
 }
+
+
 
 .row{
     display: flex;
@@ -34,7 +37,8 @@ body{
 }
 
 .container{
-    max-width: 960px;
+    max-width: 100%;
+  
 }
 
 .hr {
@@ -47,6 +51,8 @@ body{
 .cardrenta{
     background-color: white;
 }
+
+
 
 .portales {
     width: 25%;
@@ -65,9 +71,10 @@ body{
 
 .containerbody{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 40px;
+    gap: 2px;
     
 }
 
@@ -89,11 +96,11 @@ body{
 }
 
 .portcard a{
-    width: 250px;
+    width: 100%;
     line-height: 1.5;
 }
 
-a{
+.portcard a{
     color: white;
     cursor: pointer;
     text-decoration: none;
@@ -106,8 +113,12 @@ a:hover{
 .sercard {
     background-color: white;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
     
 }
 
@@ -130,6 +141,52 @@ a:hover{
 .sercardcont {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
 }
+
+.sercard a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.interes{
+    padding-top: 10px;
+    border-top: 10px solid #f8f8f8;
+    background-color: #dff0ff;
+    margin: 0;
+    width: 100%;
+    padding: 30px 26px;
+    
+}
+
+.interescard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+}
+
+.interescard img {
+    width: 30px;
+    height: auto;
+}
+
+.interesel{
+    background-color: dff0ff;
+    align-items: center;
+    padding: 20px;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    
+}
+
+.interesel a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
