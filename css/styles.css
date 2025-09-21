@@ -108,5 +108,28 @@ a:hover{
     align-items: center;
     padding: 20px;
     width: 250px;
+    
+}
+
+.sercard img{
+    width: 30px;
+    height: auto;
+}
+
+.tituloverde {
+    font-weight: bold;
+    border-bottom: 3px solid green;
+    padding-bottom: 3px;
+}
+
+.listaverde li::marker{
+    color: green;
+
+}
+
+.sercardcont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
